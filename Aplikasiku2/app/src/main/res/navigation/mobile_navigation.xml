@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_menu_pembayaran">
+
+    <fragment
+        android:id="@+id/nav_menu_pembayaran"
+        android:name="com.example.aplikasiku2.MenuPembayaran"
+        android:label="@string/menu_pembayaran"
+        tools:layout="@layout/fragment_menu_pembayaran" />
+
+    <fragment
+        android:id="@+id/nav_menu_perangkat"
+        android:name="com.example.aplikasiku2.MenuPerangkat"
+        android:label="@string/menu_perangkat"
+        tools:layout="@layout/fragment_menu_perangkat" />
+
+    <fragment
+        android:id="@+id/nav_menu_tambah_keranjang"
+        android:name="com.example.aplikasiku2.MenuTambahKeranjang"
+        android:label="@string/menu_tambah_keranjang"
+        tools:layout="@layout/fragment_menu_tambah_keranjang" />
+</navigation>

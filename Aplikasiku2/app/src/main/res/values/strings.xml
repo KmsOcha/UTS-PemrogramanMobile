@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Aplikasiku2</string>
+    <string name="nav_header_title">Kemas Ocha</string>
+    <string name="nav_header_subtitle">Dashboard Pembeli</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Logout</string>
+
+    <string name="menu_pembayaran">Menu Pembayaran</string>
+    <string name="menu_perangkat">Menu Daftar Perangkat</string>
+    <string name="menu_tambah_keranjang">Menu Tambah Keranjang</string>
+</resources>

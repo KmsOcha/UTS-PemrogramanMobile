@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_menu_pembayaran"
+            android:icon="@drawable/ic_baseline_payment_24"
+            android:title="@string/menu_pembayaran" />
+        <item
+            android:id="@+id/nav_menu_perangkat"
+            android:icon="@drawable/ic_baseline_devices_24"
+            android:title="@string/menu_perangkat" />
+        <item
+            android:id="@+id/nav_menu_tambah_keranjang"
+            android:icon="@drawable/ic_baseline_shopping_cart_24"
+            android:title="@string/menu_tambah_keranjang" />
+    </group>
+</menu>
